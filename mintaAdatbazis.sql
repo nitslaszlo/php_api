@@ -10,7 +10,7 @@ CREATE DATABASE mintaAdatbazis
 USE mintaAdatbazis;
 
 --
--- Definition for table feedback
+-- Definition for table mintaTabla
 --
 DROP TABLE IF EXISTS mintaTabla;
 
