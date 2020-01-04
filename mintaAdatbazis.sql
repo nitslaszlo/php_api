@@ -23,6 +23,6 @@ CREATE TABLE mintaTabla (
 )
 ENGINE = INNODB;
 
-INSERT INTO feedback VALUES
+INSERT INTO mintaTabla VALUES
 (1, 'minta1 adat m1', 'minta1 adat m2', 'minta1 adat m3'),
 (2, 'minta2 adat m1', 'minta2 adat m2', 'minta2 adat m3');
