@@ -53,7 +53,7 @@ function insertValami() {
     xhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhttp.send(JSON.stringify({ "mezo1": mezo1.value, "mezo2": mezo2.value, "mezo3": mezo3.value }));
     
-    // Így szerencsésebb lenne, de az érettségin másképpen kérik:
+    // Így szerencsésebb lenne, de az érettségin máshogyan kérik:
     // xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     // xhttp.send(`name=${name.value}&email=${email.value}&phone=${phone.value}&message=${message.value}`);
 }
